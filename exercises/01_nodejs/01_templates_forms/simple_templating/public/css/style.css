@@ -17,3 +17,8 @@ img {
   width: 600px;
   background-color: aquamarine;
 }
+
+#foodTable,th ,td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}

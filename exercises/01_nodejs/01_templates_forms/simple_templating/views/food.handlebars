@@ -5,3 +5,15 @@
 	<li>{{this.name}}</li>
 	{{/each}}
 </ol>
+<table id="foodTable" style="width:50%">
+  <caption>Food table</caption>
+  <tr>
+    <th>Food name</th>
+    <th>Quantity</th>
+  </tr>
+  {{#each myFood}}
+  <tr>
+    <td>{{this.name}}</td>
+  </tr>
+  {{/each}}
+</table>
