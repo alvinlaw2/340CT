@@ -17,6 +17,10 @@ img {
   width: 600px;
   background-color: aquamarine;
 }
+#cap1{
+  color:red;
+  font-family: helvetica, sans-serif;
+}
 
 #foodTable,th ,td {
   border: 2px solid black;

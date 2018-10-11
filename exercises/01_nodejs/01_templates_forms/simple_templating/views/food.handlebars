@@ -1,12 +1,11 @@
-
 <h2>My Favourite Food</h2>
 <ol>
 	{{#each myFood}}
 	<li>{{this.name}}</li>
 	{{/each}}
 </ol>
-<table id="foodTable" style="width:50%">
-  <caption>Food table</caption>
+<table id="foodTable" style="width:25%">
+  <caption id="cap1">Food table</caption>
   <tr>
     <th>Food name</th>
     <th>Quantity</th>
@@ -14,6 +13,7 @@
   {{#each myFood}}
   <tr>
     <td>{{this.name}}</td>
+    <td>{{this.qty}}</td>
   </tr>
   {{/each}}
 </table>
