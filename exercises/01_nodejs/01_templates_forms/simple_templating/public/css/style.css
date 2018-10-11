@@ -1,0 +1,19 @@
+
+p, h2 {
+  font-family: verdana, sans-serif;
+}
+
+h2 {
+  color: darkred;
+}
+
+img {
+  float: none;
+}
+
+#calendar {
+  float: none;
+  height: 500px;
+  width: 600px;
+  background-color: aquamarine;
+}

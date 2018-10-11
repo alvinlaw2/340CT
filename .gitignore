@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+.nyc_output
+docs/
+coverage/
+testResults/
+package-lock.json
+results.json
+coverage.lcov
+*.class
+dependency-check-report.html
+linter.xml

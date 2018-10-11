@@ -1,0 +1,13 @@
+
+#.cpd.yaml
+path:
+  - modules/
+languages:
+  - javascript
+  #- php
+  #- python
+  #- java
+  #- "c++src"
+exclude:
+  - "node_modules/*"
+reporter: json

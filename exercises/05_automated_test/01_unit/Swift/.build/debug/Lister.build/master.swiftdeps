@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "cab065e6a6be6cee9c91499b09092ea0"
+build_time: [541348638, 526306000]
+inputs:
+  "/Users/marktyers/Documents/302CEM/06 Test Driven Development/Swift/Sources/Lister.swift": [541348636, 0]

@@ -1,0 +1,29 @@
+{
+  "name": "continuous-integration-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "node spec/testRunner",
+    "linter": "node_modules/.bin/eslint init && node_modules/.bin/eslint .",
+    "coverage": "node_modules/.bin/istanbul cover spec/testRunner.js",
+    "check-coverage": "node_modules/.bin/istanbul check-coverage --statement 100 --branch 100 --function 100 --line 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/covcom/continuous-integration-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/covcom/continuous-integration-example/issues"
+  },
+  "homepage": "https://gitlab.com/covcom/continuous-integration-example#README",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.8.0",
+    "jasmine-console-reporter": "^2.0.1"
+  }
+}

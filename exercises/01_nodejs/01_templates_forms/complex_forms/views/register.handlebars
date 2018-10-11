@@ -1,0 +1,42 @@
+
+<h2>Course Registration</h2>
+<form method="post" action="/register">
+	<fieldset>
+		<legend>Personal Details</legend>
+		<p><label for="name">Name:</label><input type="text" name="name" /></p>
+		<p>
+		<label for="male">Male:</label><input type="radio" name="gender" value="male" /><br />
+		<label for="female">Female:</label><input type="radio" name="gender" value="female" /><br />
+		<label for="other">Other:</label><input type="radio" name="gender" value="other" />
+		</p>
+		<p>
+			<label for="dob">Date of Birth:</label>
+			<input type="date" name="dob" min="1900-01-01" max="2000-07-01" />
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend>Course Details</legend>
+		<p>
+			<label for="course">Choose Course:</label>
+			<select name="course">
+				<option value="">-- SELECT --</option>
+				<option value="cs">Computer Science MSci/BSc (Hons)</option>
+				<option value="com">Computing BSc (Hons)</option>
+				<option value="ehns">Ethical Hacking and Cybersecurity MSci/BSc (Hons)</option>
+				<option value="gt">Games Technology BSc (Hons)</option>
+			</select>
+		</p>
+		<p>
+			<label for="tandc">Terms and conditions</label>
+			<input type="checkbox" name="tandc" />
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend>Account Details</legend>
+		<p><label for="username">Preferred username:</label><input type="text" name="username" /></p>
+		<p><label for="password">Password:</label><input type="password" name="password" /></p>
+		<p><label for="confirm">Confirm password:</label><input type="password" name="confirm" /></p>
+	</fieldset>
+	<input type="hidden" name="formtype" value="registration" />
+	<input type="submit" value="submit form" />
+</form>

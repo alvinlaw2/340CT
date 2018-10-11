@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "codecov": "^3.0.0",
+    "faucet": "0.0.1",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.8.0",
+    "jasmine-console-reporter": "^2.0.1",
+    "jasmine-reporters": "^2.2.1",
+    "jasmine-tapreporter": "^0.2.2",
+    "nyc": "^11.3.0",
+    "tap": "^10.7.3",
+    "tap-nyc": "^1.0.3",
+    "tape": "^4.8.0"
+  },
+  "scripts": {
+    "test": "node spec/testRunner.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

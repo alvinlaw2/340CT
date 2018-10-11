@@ -1,0 +1,33 @@
+
+{
+  "name": "shopping",
+  "version": "1.0.0",
+  "description": "simple shopping list",
+  "main": "index.js",
+  "scripts": {
+    "app": "node index.js",
+    "lint": "node_modules/.bin/eslint init && node_modules/.bin/eslint .",
+    "test": "node spec/testRunner",
+    "coverage": "node_modules/.bin/istanbul cover spec/testRunner.js",
+    "check-coverage": "node_modules/.bin/istanbul check-coverage --statement 100 --branch 100 --function 100 --line 100",
+    "doc": "node_modules/.bin/jsdoc modules/"
+  },
+  "keywords": [
+    "list",
+    "jasmine",
+    "module"
+  ],
+  "author": "Mark J Tyers",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.2.22"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.0",
+    "istanbul": "^0.4.0",
+    "jasmine": "^2.6.0",
+    "jasmine-console-reporter": "^1.2.7",
+    "jsdoc": "^3.4.0",
+    "node-inspector": "^0.12.8"
+  }
+}

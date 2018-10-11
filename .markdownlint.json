@@ -1,0 +1,11 @@
+
+{
+  "line-length": false,
+  "fenced-code-language": false,
+  "commands-show-output": false,
+  "first-line-h1": false,
+  "ul-indent": false,
+  "ol-prefix": {
+    "style": "ordered" 
+  }
+}

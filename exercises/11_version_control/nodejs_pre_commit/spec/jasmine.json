@@ -1,0 +1,7 @@
+
+{
+	"spec_files": [
+    "spec/notes-spec.js",
+    "spec/request-spec.js"
+	]
+}

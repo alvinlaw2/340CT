@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/marktyers/Documents/302CEM/06 Test Driven Development/Swift/.build/debug/Lister.build/master.swiftdeps"
+  },
+  "/Users/marktyers/Documents/302CEM/06 Test Driven Development/Swift/Sources/Lister.swift": {
+    "dependencies": "/Users/marktyers/Documents/302CEM/06 Test Driven Development/Swift/.build/debug/Lister.build/Lister.d",
+    "object": "/Users/marktyers/Documents/302CEM/06 Test Driven Development/Swift/.build/debug/Lister.build/Lister.swift.o",
+    "swiftmodule": "/Users/marktyers/Documents/302CEM/06 Test Driven Development/Swift/.build/debug/Lister.build/Lister~partial.swiftmodule",
+    "swift-dependencies": "/Users/marktyers/Documents/302CEM/06 Test Driven Development/Swift/.build/debug/Lister.build/Lister.swiftdeps"
+  }
+}

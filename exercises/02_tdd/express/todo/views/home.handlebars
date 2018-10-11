@@ -1,0 +1,9 @@
+
+<h2>My List</h2>
+<table>
+	<caption>Shopping List</caption>
+	<tr><th>Item</th><th>Qty</th><th>Action</th></tr>
+	{{#each items}}
+		<tr><td>{{this.item}}</td><td>{{this.qty}}</td><td><a href="/delete/{{this.key}}">delete</a></td></tr>
+	{{/each}}
+</table>

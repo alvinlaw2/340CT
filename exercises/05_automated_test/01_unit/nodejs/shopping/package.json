@@ -1,0 +1,21 @@
+{
+  "name": "shopping",
+  "version": "1.0.0",
+  "description": "simple shopping list",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony-async-await index.js",
+    "debug": "node debug.js",
+    "test": "node --harmony-async-await spec/runTests.js"
+  },
+  "author": "Mark J Tyers",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.6"
+  },
+  "devDependencies": {
+    "complexity-report": "^2.0.0-alpha",
+    "jasmine": "^2.5.3",
+    "jasmine-console-reporter": "^1.2.7"
+  }
+}

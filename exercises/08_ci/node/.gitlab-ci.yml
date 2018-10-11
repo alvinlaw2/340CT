@@ -1,0 +1,38 @@
+
+image: node:latest
+
+stages:
+  - test
+  - deploy
+
+lint:
+  stage: test
+  script:
+    - npm install
+    - npm run linter
+
+test:
+  stage: test
+  script:
+  - npm install
+  - npm test
+
+cover:
+  stage: test
+  script:
+    - npm install
+    - npm run coverage
+    - npm run check-coverage
+
+coverage:
+  stage: deploy
+  script:
+    - npm install
+    - npm run coverage
+    - mv ./docs/coverage/ public/
+  artifacts:
+    paths:
+      - public
+    expire_in: 30 days
+  only:
+    - master

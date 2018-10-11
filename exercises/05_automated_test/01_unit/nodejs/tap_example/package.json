@@ -1,0 +1,18 @@
+{
+  "name": "tap_example",
+  "version": "1.0.0",
+  "description": "Simple example of the TAP protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "author": "Mark J Tyers",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "^10.7.3"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "tap-mocha-reporter": "^3.0.6"
+  }
+}

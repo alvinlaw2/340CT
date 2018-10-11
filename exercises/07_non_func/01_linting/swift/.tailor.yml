@@ -1,0 +1,8 @@
+
+include:
+  - Source
+exclude:
+  - Tests
+except:
+  - leading-whitespace  # https://github.com/sleekbyte/tailor/wiki/Rules
+format: xcode           # options are xcode (default), json or html

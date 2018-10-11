@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_pre_commit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "node spec/testRunner",
+    "linter": "node_modules/.bin/eslint init && node_modules/.bin/eslint .",
+    "coverage": "node_modules/.bin/istanbul cover spec/testRunner.js",
+    "check-coverage": "node_modules/.bin/istanbul check-coverage --statement 100 --branch 100 --function 100 --line 100"
+  },
+  "pre-commit": [
+    "linter",
+    "test",
+    "check-coverage"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.8.0",
+    "jasmine-console-reporter": "^2.0.1",
+    "pre-commit": "^1.2.2"
+  }
+}
